@@ -1,0 +1,6 @@
+# Apocalypse plugin.yml | Uses Maven variables, see pom.xml for values. #
+main: com.theapocalypsemc.longtest.LongTest
+name: ${project.name}
+version: ${project.version}
+author: SirFaizdat
+description: ${project.description}
